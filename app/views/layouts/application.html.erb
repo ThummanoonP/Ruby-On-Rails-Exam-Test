@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= content_for(:title) || "Show Your Cars" %></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  </head>
+
+  <nav class="navbar navbar-expand-lg navbar">
+    <div class="container">
+      <a class="navbar-brand" href="/">Show Your Car</a>
+  </div>
+</nav>
+<body>
+<div class="container">
+  <%= yield %>
+</div>
+
+<body>
+
+  <p class="notice"><%= notice %></p> 
+  <p class="alert"><%= alert %></p> 
+  </body>
+</html>

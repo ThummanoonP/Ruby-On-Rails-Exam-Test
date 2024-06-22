@@ -1,0 +1,27 @@
+<div id="<%= dom_id car %>">
+<p>
+
+<strong>Brand:</strong>
+<%= car.brand %>
+</p>
+
+<strong>Model:</strong>
+<%= car.car_model %>
+</p>
+
+<p>
+<strong>Description:</strong>
+<%= car.description %>
+</p>
+
+<p>
+<%= image_tag car.picture, width: '50%' if car.picture.present? %>
+</p>
+
+<p>
+<strong>Post By:</strong>
+<%= car.user.email %>
+</p>
+
+
+</div>
