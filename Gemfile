@@ -8,7 +8,7 @@ gem "devise", "~> 4.9"
 gem 'uuidtools'
 
 
-gem "net-pop", require: false
+gem "net-pop", github: "ruby/net-pop"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
