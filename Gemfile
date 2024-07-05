@@ -9,7 +9,7 @@ gem 'uuidtools'
 
 # TODO: Reinstall debug after bundler 2.4
 # gem "debug", platforms: [:mri, :mingw, :x64_mingw]
-gem "install debug"
+gem "debug"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
