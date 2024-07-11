@@ -6,6 +6,7 @@ gem "rails", "~> 7.2.0.beta2"
 gem "mongoid"
 gem "devise", "~> 4.9"
 gem 'uuidtools'
+gem "rack", ">= 3.1.5"
 
 
 gem "net-pop", github: "ruby/net-pop"
