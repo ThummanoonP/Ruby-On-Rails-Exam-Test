@@ -48,7 +48,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'database_cleaner'
-  gem 'shoulda-matchers', '6.2.0', require:  false
+  gem 'shoulda-matchers', '6.3.1', require:  false
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
 
